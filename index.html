@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de la página -->
+    <title>Módulo 3 - Desafío 5 - Métodos de Arreglos - Todo List</title>
+
+    <!-- Enlace al archivo CSS para estilos -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Contenedor principal de la página -->
+    <div class="container">
+
+        <!-- Título principal de la aplicación -->
+        <h1>Todo List - Lista de Tareas Pendientes</h1>
+
+        <!-- Campo de entrada para ingresar nuevas tareas -->
+        <input type="text" id="taskInput" placeholder="Digitar nueva tarea" onfocus="limpiarCampo()">
+
+        <!-- Botón para agregar nuevas tareas -->
+        <button id="addTaskButton" onclick="agregarTarea()">Agregar Tarea</button>
+
+        <!-- Contenedor donde se mostrará la lista de tareas -->
+        <div id="taskList"></div>
+
+        <!-- Información sobre el total de tareas -->
+        <p>Total Tareas: <span id="totalTasks">0</span></p>
+
+        <!-- Información sobre el número de tareas completadas -->
+        <p>Tareas Realizadas: <span id="completedTasks">0</span></p>
+    </div>
+
+    <!-- Script de JavaScript para la funcionalidad de la lista de tareas -->
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

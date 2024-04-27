@@ -1,0 +1,45 @@
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    /* Añadir borde al contenedor */
+    border: 2px solid #ccc;
+    border-radius: 8px; /* Añadir esquinas redondeadas */
+}
+
+/* Estilos para los campos de entrada de texto */
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+/* Estilos para todos los botones */
+button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Estilo específico para el botón "Agregar Tarea" */
+button#addTaskButton {
+    background-color: #4CAF50; /* Color verde */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Esquinas redondeadas */
+}
+
+/* Estilos para elementos con clase "task" */
+.task {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Estilos para elementos con clase "completed" */
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
